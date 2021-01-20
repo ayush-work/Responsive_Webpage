@@ -13,7 +13,7 @@ body {
 /* typography
   fonts: ubuntu , lora seoge ui 
 */
-.container {
+.navbar {
   margin: 0 auto;
   max-width: 980px;
   display: flex;
@@ -73,7 +73,7 @@ a:focus {
 }
 
 @media (max-width: 675px) {
-  .container {
+  .navbar {
     flex-direction: column;
   }
   ul {
@@ -83,4 +83,12 @@ a:focus {
   li {
     margin: 0.5em auto;
   }
+}
+
+.img {
+  width: 300px;
+  background-image: url("./assets/images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
+}
+.container {
+  margin: 0 auto;
 }
